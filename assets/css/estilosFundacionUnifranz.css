@@ -115,17 +115,12 @@ body {
   height: 45px;
 }
 
-/* Estilos específicos para pantallas medianas como tablets */
+/* ---------------------- TABLETS ---------------------- */
 @media (min-width: 640px) and (max-width: 1280px) {
   /* Aumenta el ancho de las tarjetas */
   .col-md-4 {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-
-  .card-custom {
-    padding: 20px;
-    margin: 15px;
   }
 
   /* Ajustes adicionales para el contenido */
@@ -162,6 +157,7 @@ body {
   }
 }
 
+/* ---------------------- CELULARES ---------------------- */
 @media (max-width: 640px) {
   .card-custom {
     padding: 10px;
